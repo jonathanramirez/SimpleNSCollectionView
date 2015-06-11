@@ -1,0 +1,448 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AB06D64A1B28C0C700259F7F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AB06D6491B28C0C700259F7F /* AppDelegate.m */; };
+		AB06D64C1B28C0C700259F7F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AB06D64B1B28C0C700259F7F /* main.m */; };
+		AB06D64E1B28C0C700259F7F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB06D64D1B28C0C700259F7F /* Images.xcassets */; };
+		AB06D6511B28C0C700259F7F /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = AB06D64F1B28C0C700259F7F /* MainMenu.xib */; };
+		AB06D65D1B28C0C700259F7F /* SimpleNSCollectionViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AB06D65C1B28C0C700259F7F /* SimpleNSCollectionViewTests.m */; };
+		AB06D6691B28C10F00259F7F /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AB06D6671B28C10F00259F7F /* MainViewController.m */; };
+		AB06D66A1B28C10F00259F7F /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AB06D6681B28C10F00259F7F /* MainViewController.xib */; };
+		AB06D66D1B28C19000259F7F /* HWGCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = AB06D66C1B28C19000259F7F /* HWGCollectionView.m */; };
+		AB06D6711B28C21B00259F7F /* HWGCollectionViewItem.m in Sources */ = {isa = PBXBuildFile; fileRef = AB06D66F1B28C21B00259F7F /* HWGCollectionViewItem.m */; };
+		AB06D6721B28C21B00259F7F /* HWGCollectionViewItem.xib in Resources */ = {isa = PBXBuildFile; fileRef = AB06D6701B28C21B00259F7F /* HWGCollectionViewItem.xib */; };
+		AB06D6751B28C24E00259F7F /* HWGOptionView.m in Sources */ = {isa = PBXBuildFile; fileRef = AB06D6741B28C24E00259F7F /* HWGOptionView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AB06D6571B28C0C700259F7F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AB06D63B1B28C0C700259F7F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AB06D6421B28C0C700259F7F;
+			remoteInfo = SimpleNSCollectionView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AB06D6431B28C0C700259F7F /* SimpleNSCollectionView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimpleNSCollectionView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB06D6471B28C0C700259F7F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AB06D6481B28C0C700259F7F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		AB06D6491B28C0C700259F7F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		AB06D64B1B28C0C700259F7F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AB06D64D1B28C0C700259F7F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		AB06D6501B28C0C700259F7F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		AB06D6561B28C0C700259F7F /* SimpleNSCollectionViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SimpleNSCollectionViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB06D65B1B28C0C700259F7F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AB06D65C1B28C0C700259F7F /* SimpleNSCollectionViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SimpleNSCollectionViewTests.m; sourceTree = "<group>"; };
+		AB06D6661B28C10F00259F7F /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		AB06D6671B28C10F00259F7F /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		AB06D6681B28C10F00259F7F /* MainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainViewController.xib; sourceTree = "<group>"; };
+		AB06D66B1B28C19000259F7F /* HWGCollectionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HWGCollectionView.h; sourceTree = "<group>"; };
+		AB06D66C1B28C19000259F7F /* HWGCollectionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HWGCollectionView.m; sourceTree = "<group>"; };
+		AB06D66E1B28C21B00259F7F /* HWGCollectionViewItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HWGCollectionViewItem.h; sourceTree = "<group>"; };
+		AB06D66F1B28C21B00259F7F /* HWGCollectionViewItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HWGCollectionViewItem.m; sourceTree = "<group>"; };
+		AB06D6701B28C21B00259F7F /* HWGCollectionViewItem.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HWGCollectionViewItem.xib; sourceTree = "<group>"; };
+		AB06D6731B28C24E00259F7F /* HWGOptionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HWGOptionView.h; sourceTree = "<group>"; };
+		AB06D6741B28C24E00259F7F /* HWGOptionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HWGOptionView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AB06D6401B28C0C700259F7F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB06D6531B28C0C700259F7F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AB06D63A1B28C0C700259F7F = {
+			isa = PBXGroup;
+			children = (
+				AB06D6451B28C0C700259F7F /* SimpleNSCollectionView */,
+				AB06D6591B28C0C700259F7F /* SimpleNSCollectionViewTests */,
+				AB06D6441B28C0C700259F7F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AB06D6441B28C0C700259F7F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AB06D6431B28C0C700259F7F /* SimpleNSCollectionView.app */,
+				AB06D6561B28C0C700259F7F /* SimpleNSCollectionViewTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AB06D6451B28C0C700259F7F /* SimpleNSCollectionView */ = {
+			isa = PBXGroup;
+			children = (
+				AB06D6481B28C0C700259F7F /* AppDelegate.h */,
+				AB06D6491B28C0C700259F7F /* AppDelegate.m */,
+				AB06D66B1B28C19000259F7F /* HWGCollectionView.h */,
+				AB06D66C1B28C19000259F7F /* HWGCollectionView.m */,
+				AB06D66E1B28C21B00259F7F /* HWGCollectionViewItem.h */,
+				AB06D66F1B28C21B00259F7F /* HWGCollectionViewItem.m */,
+				AB06D6701B28C21B00259F7F /* HWGCollectionViewItem.xib */,
+				AB06D6731B28C24E00259F7F /* HWGOptionView.h */,
+				AB06D6741B28C24E00259F7F /* HWGOptionView.m */,
+				AB06D6661B28C10F00259F7F /* MainViewController.h */,
+				AB06D6671B28C10F00259F7F /* MainViewController.m */,
+				AB06D6681B28C10F00259F7F /* MainViewController.xib */,
+				AB06D64D1B28C0C700259F7F /* Images.xcassets */,
+				AB06D64F1B28C0C700259F7F /* MainMenu.xib */,
+				AB06D6461B28C0C700259F7F /* Supporting Files */,
+			);
+			path = SimpleNSCollectionView;
+			sourceTree = "<group>";
+		};
+		AB06D6461B28C0C700259F7F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AB06D6471B28C0C700259F7F /* Info.plist */,
+				AB06D64B1B28C0C700259F7F /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AB06D6591B28C0C700259F7F /* SimpleNSCollectionViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				AB06D65C1B28C0C700259F7F /* SimpleNSCollectionViewTests.m */,
+				AB06D65A1B28C0C700259F7F /* Supporting Files */,
+			);
+			path = SimpleNSCollectionViewTests;
+			sourceTree = "<group>";
+		};
+		AB06D65A1B28C0C700259F7F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AB06D65B1B28C0C700259F7F /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AB06D6421B28C0C700259F7F /* SimpleNSCollectionView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB06D6601B28C0C700259F7F /* Build configuration list for PBXNativeTarget "SimpleNSCollectionView" */;
+			buildPhases = (
+				AB06D63F1B28C0C700259F7F /* Sources */,
+				AB06D6401B28C0C700259F7F /* Frameworks */,
+				AB06D6411B28C0C700259F7F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SimpleNSCollectionView;
+			productName = SimpleNSCollectionView;
+			productReference = AB06D6431B28C0C700259F7F /* SimpleNSCollectionView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AB06D6551B28C0C700259F7F /* SimpleNSCollectionViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB06D6631B28C0C700259F7F /* Build configuration list for PBXNativeTarget "SimpleNSCollectionViewTests" */;
+			buildPhases = (
+				AB06D6521B28C0C700259F7F /* Sources */,
+				AB06D6531B28C0C700259F7F /* Frameworks */,
+				AB06D6541B28C0C700259F7F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AB06D6581B28C0C700259F7F /* PBXTargetDependency */,
+			);
+			name = SimpleNSCollectionViewTests;
+			productName = SimpleNSCollectionViewTests;
+			productReference = AB06D6561B28C0C700259F7F /* SimpleNSCollectionViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AB06D63B1B28C0C700259F7F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = HeadWorkGames;
+				TargetAttributes = {
+					AB06D6421B28C0C700259F7F = {
+						CreatedOnToolsVersion = 6.3.2;
+					};
+					AB06D6551B28C0C700259F7F = {
+						CreatedOnToolsVersion = 6.3.2;
+						TestTargetID = AB06D6421B28C0C700259F7F;
+					};
+				};
+			};
+			buildConfigurationList = AB06D63E1B28C0C700259F7F /* Build configuration list for PBXProject "SimpleNSCollectionView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AB06D63A1B28C0C700259F7F;
+			productRefGroup = AB06D6441B28C0C700259F7F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AB06D6421B28C0C700259F7F /* SimpleNSCollectionView */,
+				AB06D6551B28C0C700259F7F /* SimpleNSCollectionViewTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AB06D6411B28C0C700259F7F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB06D64E1B28C0C700259F7F /* Images.xcassets in Resources */,
+				AB06D66A1B28C10F00259F7F /* MainViewController.xib in Resources */,
+				AB06D6721B28C21B00259F7F /* HWGCollectionViewItem.xib in Resources */,
+				AB06D6511B28C0C700259F7F /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB06D6541B28C0C700259F7F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AB06D63F1B28C0C700259F7F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB06D64C1B28C0C700259F7F /* main.m in Sources */,
+				AB06D6691B28C10F00259F7F /* MainViewController.m in Sources */,
+				AB06D6751B28C24E00259F7F /* HWGOptionView.m in Sources */,
+				AB06D6711B28C21B00259F7F /* HWGCollectionViewItem.m in Sources */,
+				AB06D64A1B28C0C700259F7F /* AppDelegate.m in Sources */,
+				AB06D66D1B28C19000259F7F /* HWGCollectionView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB06D6521B28C0C700259F7F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB06D65D1B28C0C700259F7F /* SimpleNSCollectionViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AB06D6581B28C0C700259F7F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AB06D6421B28C0C700259F7F /* SimpleNSCollectionView */;
+			targetProxy = AB06D6571B28C0C700259F7F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AB06D64F1B28C0C700259F7F /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AB06D6501B28C0C700259F7F /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AB06D65E1B28C0C700259F7F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		AB06D65F1B28C0C700259F7F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		AB06D6611B28C0C700259F7F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = SimpleNSCollectionView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		AB06D6621B28C0C700259F7F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = SimpleNSCollectionView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		AB06D6641B28C0C700259F7F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SimpleNSCollectionViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SimpleNSCollectionView.app/Contents/MacOS/SimpleNSCollectionView";
+			};
+			name = Debug;
+		};
+		AB06D6651B28C0C700259F7F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SimpleNSCollectionViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SimpleNSCollectionView.app/Contents/MacOS/SimpleNSCollectionView";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AB06D63E1B28C0C700259F7F /* Build configuration list for PBXProject "SimpleNSCollectionView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB06D65E1B28C0C700259F7F /* Debug */,
+				AB06D65F1B28C0C700259F7F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AB06D6601B28C0C700259F7F /* Build configuration list for PBXNativeTarget "SimpleNSCollectionView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB06D6611B28C0C700259F7F /* Debug */,
+				AB06D6621B28C0C700259F7F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		AB06D6631B28C0C700259F7F /* Build configuration list for PBXNativeTarget "SimpleNSCollectionViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB06D6641B28C0C700259F7F /* Debug */,
+				AB06D6651B28C0C700259F7F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AB06D63B1B28C0C700259F7F /* Project object */;
+}
