@@ -17,8 +17,8 @@
 
 @synthesize selected;
 
-- (void)viewDidLoad {
-    [super viewDidLoad];
+- (void)loadView {
+    [super loadView];
     [self setView:[[HWGOptionView alloc] initWithFrame:NSZeroRect]];
 }
 
